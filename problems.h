@@ -60,3 +60,6 @@ T midValue(T a, T b, T c) {
     }
         return c;
 }
+int main(){
+    
+}
