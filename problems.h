@@ -1,7 +1,7 @@
 //In the comments after each problem functions' names are provided. Your task to define correct datatype and parameters.
 //DO NOT CHANGE FUNCTIONS' NAMES.
 //You may check your functions in main.cpp as shown by exampleFunction;
-
+using namespace std;
 // Problem 1
 // floorFunction
 // ceilingFunction
