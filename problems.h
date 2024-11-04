@@ -1,22 +1,25 @@
 //In the comments after each problem functions' names are provided. Your task to define correct datatype and parameters.
 //DO NOT CHANGE FUNCTIONS' NAMES.
 //You may check your functions in main.cpp as shown by exampleFunction;
-#include <bits/stdc++.h>
+#include <cmath>
 using namespace std;
 // Problem 1
 // floorFunction
 // ceilingFunction
+void exampleFunction()
+{
+    std::cout << "bla bla bla" << std::endl;
+}
 int floorFunction(double number) {
-    return number;
+    return floor(number);
 }
 int ceilingFunction(double number) {
-    int intpart = int(number);
-    return (intpart == number) ? intpart : number+1;
+    return int(number + 0.999999999);
 }
 
 //Problem 2
 //swap_values
-void swap_values(float &a, float &b) {
+void swap_values(double &a, double &b) {
     a = a+b;
     b = a-b;
     a = a-b;
