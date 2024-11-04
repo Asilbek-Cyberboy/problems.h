@@ -24,9 +24,8 @@ void swap_values(float &a, float &b) {
 // Problem 3
 //multiply
 int multiply(int x, int y) {
-    if(y==1) {
-        return x;
-    }
+    if(y == 0) return 0;
+    if(y < 0) return -x + multiply(x, y + 1);
     return x+multiply(x, y-1);
 }
 
